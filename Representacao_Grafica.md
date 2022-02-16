@@ -19,3 +19,7 @@
 
 > *Atributos e entidades são ligadas por linhas retas.*
 
+## Tipos de Entidade
+
+**Entidade Fraca:** *É aquela que não identificamos nenhum atributo chave.*
+
