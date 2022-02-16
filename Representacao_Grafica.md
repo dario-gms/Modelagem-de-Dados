@@ -1,5 +1,7 @@
 # Representação gráfica de modelo ER(Entidade e Relacionamento)
 
+![repGraf](https://user-images.githubusercontent.com/86432208/154335282-aa4f1b0a-6a84-4b4c-8fb7-39516630e772.png)
+
 ## Tipos Gráficos
 
 **Entidade**: *Representada por um retângulo.*
@@ -16,3 +18,4 @@
 ## Tipos de Ligação
 
 > *Atributos e entidades são ligadas por linhas retas.*
+
