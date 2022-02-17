@@ -14,6 +14,8 @@
 
 **Atributos chaves**: *São sublinhados.*
 
+**Relacionamentos:** *São representados por um losango.*
+
 
 ## Tipos de Ligação
 
@@ -23,3 +25,10 @@
 
 **Entidade Fraca:** *É aquela que não identificamos nenhum atributo chave.*
 
+## Relacionamentos
+
+**Grau de relacionamento:** *É o número de entidades envolvidas no relacionamento.*
+
+- Grau 2 - **Binário**: *Quando possui relacionamento envolvendo duas entidades.*
+- Grau 3 - **Ternário**: *Quando possui relacionamento envolvendo três entidades.*
+- **Relacionamento recursivo** - *Quando uma entidade se relaciona com ela mesma.*
