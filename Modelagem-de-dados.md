@@ -42,4 +42,7 @@
 ![cardinalidade](https://user-images.githubusercontent.com/86432208/154539673-d99b55e4-20bc-4931-8f4f-97bde56cb2a5.png)
 
 > Geralmente a cardinalidade é representada da seguinte forma: (1, 1), (1, N), (0, 1), sendo 1 considerado cardinalidade **total** e 0 **parcial**. **N** representa uma quantidade variável, podendo ser qualquer valor.
+
 > 1:1 ou (1, 1) representa uma entidade que atua somente em um local.
+
+> **Migração de atributos**: *somente podemos migrar o atributo do relacionamento para o lado 1.*
