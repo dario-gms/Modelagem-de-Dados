@@ -23,7 +23,10 @@
 
 ## Tipos de Entidade
 
+**Entidade forte:** *É a entidade que possui atributo chave*
+
 **Entidade Fraca:** *É aquela que não identificamos nenhum atributo chave.*
+> Sempre estará associada a uma entidade forte. Neste caso a identidade forte será **Entidade Proprietária.**
 
 ## Relacionamentos
 
@@ -46,3 +49,7 @@
 > 1:1 ou (1, 1) representa uma entidade que atua somente em um local.
 
 > **Migração de atributos**: *somente podemos migrar o atributo do relacionamento para o lado 1.*
+
+**Relacionamento de uma entidade forte com uma entidade fraca:** *é representado por um losando duplo e é chamado de relacionamento de identificação.*
+
+
