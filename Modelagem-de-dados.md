@@ -16,6 +16,8 @@
 
 **Relacionamentos:** *São representados por um losango.*
 
+**Atributo derivado**: *representado por um círculo oval pontilhado.*
+
 
 ## Tipos de Ligação
 
