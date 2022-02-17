@@ -35,6 +35,7 @@
 - Grau 2 - **Binário**: *Quando possui relacionamento envolvendo duas entidades.*
 - Grau 3 - **Ternário**: *Quando possui relacionamento envolvendo três entidades.*
 - **Relacionamento recursivo** - *Quando uma entidade se relaciona com ela mesma.*
+- **Relacionamento de uma entidade forte com uma entidade fraca:** *é representado por um losando duplo e é chamado de relacionamento de identificação.*
 
 ## Cardinalidade entre relacionamentos
 
@@ -50,6 +51,6 @@
 
 > **Migração de atributos**: *somente podemos migrar o atributo do relacionamento para o lado 1.*
 
-**Relacionamento de uma entidade forte com uma entidade fraca:** *é representado por um losando duplo e é chamado de relacionamento de identificação.*
+
 
 
