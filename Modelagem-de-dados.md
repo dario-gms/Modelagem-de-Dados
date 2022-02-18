@@ -18,6 +18,8 @@
 
 **Atributo derivado**: *representado por um círculo oval pontilhado.*
 
+**Generalização/Especialização**: *representado por um triângulo.*
+
 ### Exemplos gráficos:
 
 ![graf](https://user-images.githubusercontent.com/86432208/154693513-70db00e8-9bb6-455f-b787-c43420572800.png)
@@ -48,6 +50,7 @@
 - Grau 3 - **Ternário**: *Quando possui relacionamento envolvendo três entidades.*
 - **Relacionamento recursivo** - *Quando uma entidade se relaciona com ela mesma.*
 - **Relacionamento de uma entidade forte com uma entidade fraca:** *é representado por um losando duplo e é chamado de relacionamento de identificação.*
+- **Herança:** *É quando atributos de uma entidade são passados à sua entidade especializada.*
 
 ## Cardinalidade entre relacionamentos
 
@@ -62,6 +65,7 @@
 > 1:1 ou (1, 1) representa uma entidade que atua somente em um local.
 
 > **Migração de atributos**: *somente podemos migrar o atributo do relacionamento para o lado 1.*
+
 
 
 
