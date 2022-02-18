@@ -18,6 +18,16 @@
 
 **Atributo derivado**: *representado por um círculo oval pontilhado.*
 
+### Exemplos gráficos:
+
+![graf](https://user-images.githubusercontent.com/86432208/154693513-70db00e8-9bb6-455f-b787-c43420572800.png)
+![graf2](https://user-images.githubusercontent.com/86432208/154694322-0eef4d53-29bb-464c-b8b6-aff380adb392.png)
+![graf3](https://user-images.githubusercontent.com/86432208/154694739-df7d8dfa-3f9e-4eb4-9e0d-7b911160bd9a.png)
+
+
+
+
+****Obs:*** *Alguns softwares podem ter uma representação gráfica diferente, os exemplos acima são os geralmente utilizados, mas não os únicos.*
 
 ## Tipos de Ligação
 
