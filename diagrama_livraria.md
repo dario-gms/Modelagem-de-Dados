@@ -7,3 +7,5 @@
 - Os livros são fornecidos por editoras que precisam ter o telefone, nome de contato, e-mail e no máximo dois telefones;
 - Não podemos ter o mesmo livro de várias editoras, pois é exclusivo desta;
 - O cliente pode comprar um ou mais livros por um pedido de compra. Mas sempre que faz uma compra, precisamos verificar a disponibilidade no estoque para terminar a operação.
+
+### Utilizar a ferramente BR Modelo para abrir o projeto no [arquivo diagrama](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/diagrama_livraria.brM3).
