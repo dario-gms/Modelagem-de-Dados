@@ -9,3 +9,7 @@
 - O cliente pode comprar um ou mais livros por um pedido de compra. Mas sempre que faz uma compra, precisamos verificar a disponibilidade no estoque para terminar a operação.
 
 ### Utilizar a ferramente BR Modelo para abrir o projeto no [arquivo diagrama](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/diagrama_livraria.brM3).
+
+## Resultado do diagrama
+
+![diagrama](https://user-images.githubusercontent.com/86432208/154738271-2d11981f-1f65-45d8-a045-df0d04b9c00d.png)
