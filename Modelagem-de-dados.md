@@ -1,4 +1,4 @@
-# Representação gráfica de modelo ER(Entidade e Relacionamento)
+# Representação gráfica de modelo ER(Entidade e Relacionamento) e seus conceitos
 
 ![repGraf](https://user-images.githubusercontent.com/86432208/154335282-aa4f1b0a-6a84-4b4c-8fb7-39516630e772.png)
 
