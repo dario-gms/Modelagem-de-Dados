@@ -26,4 +26,13 @@
 
 - Cardinalidade: *Análise combinatória de possíveis tuplas.*
 
+## Estado de Relação
+> Estado da relação é o conteúdo das tuplas em um determinado momento no tempo. O estado é válido quando todas as tuplas satisfazem as relações de integridade
+
+## Restrições de Integridade Referencial:
+
+- **Representa a relação entre duas Tuplas de Relações diferentes.**
+
+![image](https://user-images.githubusercontent.com/86432208/155182629-edfa281c-df44-4ee5-8c62-3daa4426a387.png)
+
 
