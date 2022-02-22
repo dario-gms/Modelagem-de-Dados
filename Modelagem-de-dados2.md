@@ -1,6 +1,11 @@
 # Modelo Relacional
 
-- Tupla: *é uma linha.*
+- Tupla: *é uma linha. Dentro do modelo relacional não podemos ter duas tuplas de mesmo valor.*
+> Tuplas que não podem se repetir são chamadas de Super Chave(SCh).
+> 
+> Valores que não se repetem em tuplas são chamados de chaves. Quando existem duas chaves, uma é chamada de chave primária e a outra de chave candidata.
+> 
+> Quando um atributo é sublinhado ele representa a chave primária. AS chaves primárias e únicas não podem ser nulas.
 - Domínio: *Representado pela letra D, é um conjunto de valores atômicos(quer dizer que cada valor do domínio é indivisível se tratado na definição do modelo relacional formal).*
 > Ex.: Número_de_Telefones: *é um domínio, sendo o conjunto de número de telefone de 11 dígitos(no Brasil).*
 
