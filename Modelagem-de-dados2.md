@@ -35,4 +35,17 @@
 
 ![image](https://user-images.githubusercontent.com/86432208/155182629-edfa281c-df44-4ee5-8c62-3daa4426a387.png)
 
+# Álgebra Relacional
+
+- Base teórica do modelo relacional para realizar consultas.
+- Dividias em duas partes:
+1. Seleção:
+- Captura um subconjunto de Tuplas de uma Relação.
+- Dentro de <Condição da Seleção> escrevemos uma expressão lógica que irá retornar verdadeiro ou falso. AS tulpas onde o retorno for verdadeiro serão selecionadas.
+- Podemos concatenar a expressão com operadores lógicos (AND, OR, ou NOT).
+
+2. Projeção: 
+- Escolhemos os atributos a serem exibidos.
+- Não permite apresentar tuplas iguais. Acontece quando selecionamos atributos não chaves.
+
 
