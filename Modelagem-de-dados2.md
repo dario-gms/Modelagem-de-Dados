@@ -48,4 +48,7 @@
 - Escolhemos os atributos a serem exibidos.
 - Não permite apresentar tuplas iguais. Acontece quando selecionamos atributos não chaves.
 
+## Produto Cartesiano
+
+> **O Produto Cartesiano(Ou Relação Cruzada) é uma combinação entre duas Tuplas e os Atributos entre as Relações, Projeções ou Uniões, ou o resultado de uma expressão da Álgebra Relacional.**
 
