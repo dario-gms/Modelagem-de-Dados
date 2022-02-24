@@ -52,3 +52,12 @@
 
 > **O Produto Cartesiano(Ou Relação Cruzada) é uma combinação entre duas Tuplas e os Atributos entre as Relações, Projeções ou Uniões, ou o resultado de uma expressão da Álgebra Relacional.**
 
+### Junção
+
+- O produto Cartesiano não tem sentido se combinado com outras expressões da Álgebra Relacional. Por isso podemos usar a Junção.
+- A junção é usada para combinar Tuplas relacionadas entre duas Relações, Projeções, Seleções ou resultado de expressão a Álgebra Relacional.
+- Quando usamos a igualdade na condição da Junção chamamos de Junção de Equijunção.
+- Quando os Atributos a serem igualados tem o mesmo nome, chamamos de Junção Natural.
+- Para representar a Junção Natural usamos uma Estrela(★) para representar esta operação na Álgebra Relacional.
+- Operação de Junção envolve operadores {>, <, <=, >=, <>}, chamamos neste caso, de Junção Theta. 
+
