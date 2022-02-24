@@ -61,3 +61,7 @@
 - Para representar a Junção Natural usamos uma Estrela(★) para representar esta operação na Álgebra Relacional.
 - Operação de Junção envolve operadores {>, <, <=, >=, <>}, chamamos neste caso, de Junção Theta. 
 
+### Divisão
+
+- As tuplas da relação final são as tuplas da relação inicial combinados com as tuplas da relação R2.
+- Na divisão entre R1 e R2, o resultado terá os atributos da relação R1 que não contém em R2
