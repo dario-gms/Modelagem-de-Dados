@@ -1,20 +1,25 @@
 # Projeto Banco de Dados Relacional
 
 
-## Diagrama
+## Diagrama ER do projeto
+![image](https://user-images.githubusercontent.com/86432208/155750009-6bf004c9-3c6c-4ab5-a44a-c9fb70f55df3.png)
 
-![image](https://user-images.githubusercontent.com/86432208/155555702-1b4daed3-b912-477f-9784-568f80572004.png)
 
 
-## Representação da Integridade
+## Relacionamentos e Relações do projeto
 
-![image](https://user-images.githubusercontent.com/86432208/155558388-8955f44d-a049-495e-a70f-2c01b1c1a14c.png)
+![image](https://user-images.githubusercontent.com/86432208/155750140-cc85a4d5-7e68-4c8d-9eea-03d46fbd49e5.png)
 
-## Modelo Relacional
 
-![image](https://user-images.githubusercontent.com/86432208/155558579-685bfa89-bfec-48b8-83f0-668d49be5193.png)
 
-![image](https://user-images.githubusercontent.com/86432208/155558668-34dd417c-561f-4300-a822-42ae951c9d66.png)
+
+## Relações
+
+1. ![image](https://user-images.githubusercontent.com/86432208/155750204-59c9018e-aa6e-4310-83b1-cf5fb4d4b81b.png)
+2. ![image](https://user-images.githubusercontent.com/86432208/155750334-e9de6748-0361-423b-be8d-8c47aab6d47c.png)
+3. ![image](https://user-images.githubusercontent.com/86432208/155750382-175e44b7-fd96-489d-83c5-877d7b735b33.png)
+
+
 
 
 # Projeto
