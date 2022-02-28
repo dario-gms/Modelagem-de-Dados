@@ -24,7 +24,7 @@
 
 # Projeto
 
-- **[Arquivo do Projeto](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/rela%C3%A7%C3%A3o.json)**
+- **[Arquivo do Projeto](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/projeto.json)**
 
 - **Poderá ser visualizado o projeto com a ferramenta [relational](https://ltworf.github.io/relational/index.html)**
 
