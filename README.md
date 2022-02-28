@@ -20,4 +20,4 @@
 
 > **[Arquivo projeto](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/rela%C3%A7%C3%A3o.json)**
 > 
-> ***Obs.:** *Necessário software [Relational](https://ltworf.github.io/relational/index.html) para visualização do projeto.*
+> ***Obs.:** *Necessário software [Relational](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/projeto.json) para visualização do projeto.*
