@@ -41,3 +41,24 @@
 > RESULTADO3 = RESULTADO2A ⋈ funcionario
 > 
 > RESULTADO_FINAL = π Numero_Projeto, Numero_Departamento, Ultimo_Nome, Endereco, Data_Nascimento (RESULTADO3)
+
+- Desafio 3:
+> **Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento número 5.**
+> 
+> 1. Selecionar Projeto do Departamento número 5;
+> 
+> 2. Busca somente os CPFs e Número de Projetos de Trabalha Em;
+> 
+> 3. Faz a divisão entre a Seleção de projeto e Trabalha_Em para saber quem trabaalha nos projetos filtrados;
+> 
+> 4. Selecionar os campos a serem exibidos.
+> 
+> **Solução:**
+> 
+> RESULTADO1 = π Numero_Projeto (σ Numero_Departamento == 5 (projeto))
+> 
+> RESULTADO2 = π Cpf_Funcionario, Numero_Projeto (trabalha_em)
+> 
+> RESULTADO3 = RESULTADO2 ÷ RESULTADO1
+> 
+> RESULTADO_FINAL = π Ultimo_Nome, Primeiro_Nome ((ρ Cpf_Funcionario ➡ Cpf (RESULTADO3)) ⋈ funcionario)
