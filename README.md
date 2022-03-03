@@ -21,3 +21,6 @@
 > **[Arquivo projeto](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/rela%C3%A7%C3%A3o.json)**
 > 
 > ***Obs.:** *Necessário software [Relational](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/projeto.json) para visualização do projeto.*
+
+
+#### - Desafios - [Lista de desafios resolvidos](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/DESAFIOS.md)
