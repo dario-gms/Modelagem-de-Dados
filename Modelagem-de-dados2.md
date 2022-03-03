@@ -1,5 +1,10 @@
 # Modelo Relacional
 
+![image](https://user-images.githubusercontent.com/86432208/156614601-45291c93-3b48-4d09-a5c5-51a5d8e0aa0d.png)
+> *Tabela de operações de álgebra relacional.*
+
+## Tipos
+
 - Tupla: *é uma linha. Dentro do modelo relacional não podemos ter duas tuplas de mesmo valor.*
 > Tuplas que não podem se repetir são chamadas de Super Chave(SCh).
 > 
