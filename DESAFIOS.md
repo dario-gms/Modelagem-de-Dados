@@ -105,4 +105,25 @@
 > 
 > RESULTADO_FINAL = π Ultimo_Nome, Primeiro_Nome (RESULTADO3 ⋈ funcionario)
 
+- Desafio 6:
+> **Listar o nome dos gerentes que possuem pelo menos um dependente.**
+> 
+> 1. Selecione a lista de CPFs dos Gerentes;
+> 
+> 2. Selecione a lista de CPFs dos funcionários que têm dependentes;
+> 
+> 3. Faça a Interseção das duas consultas acima;
+> 
+> 4. Seleciona o resultado desejado.
+> 
+> **Solução:**
+> 
+> RESULTADO1 = ρ Cpf_Gerente ➡ Cpf (π Cpf_Gerente (departamento))
+> 
+> RESULTADO2 = ρ Cpf_Funcionario ➡ Cpf (π Cpf_Funcionario (dependente))
+> 
+> RESULTADO3 = RESULTADO1 ∩ RESULTADO2
+> 
+> RESULTADO_FINAL = π Ultimo_Nome, Primeiro_Nome (RESULTADO3 ⋈ funcionario)
+
 
