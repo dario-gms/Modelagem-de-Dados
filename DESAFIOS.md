@@ -62,3 +62,24 @@
 > RESULTADO3 = RESULTADO2 ÷ RESULTADO1
 > 
 > RESULTADO_FINAL = π Ultimo_Nome, Primeiro_Nome ((ρ Cpf_Funcionario ➡ Cpf (RESULTADO3)) ⋈ funcionario)
+
+- Desafio 4:
+> **Fazer uma lista de números de projeto para aqueles que envolvem um funcionário cujo último nome é 'Souza', seja como trabalhador, seja como gerente do departamento que controla o projeto.**
+> 
+> 1. Projetos que o Souza trabalha;
+> 
+> 2. Projetos que o Souza Gerencia;
+> 
+> 3. Fazer uma União entre os dois resultados acima.
+> 
+> **Solução:**
+> 
+> RESULTADO1 = π Cpf (σ Ultimo_Nome == 'Souza' (funcionario))
+> 
+> RESULTADO2 = π Numero_Projeto ((ρ Cpf ➡ Cpf_Funcionario (RESULTADO1)) ⋈ trabalha_em)
+> 
+> RESULTADO3 = (ρ Cpf ➡ Cpf_Gerente (RESULTADO1)) ⋈ departamento
+> 
+> RESULTADO4 = π Numero_Projeto (projeto ⋈ RESULTADO3)
+> 
+> RESULTADO_FINAL = RESULTADO2 ∪ RESULTADO4
