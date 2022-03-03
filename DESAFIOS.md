@@ -83,3 +83,26 @@
 > RESULTADO4 = π Numero_Projeto (projeto ⋈ RESULTADO3)
 > 
 > RESULTADO_FINAL = RESULTADO2 ∪ RESULTADO4
+
+- Desafio 5:
+> **Recuperar os nomes dos funcionários que não possuem dependentes. Este é um exemplo do tipo de consulta que usa a operação SUBTRAÇÃO (DIFERENÇA DE CONJUNTO).**
+> 
+> 1. Seleciona todos os funcionários;
+> 
+> 2. Seleciona os funcionários com dependentes;
+> 
+> 3. Faz a diferença nas expressões acima.
+> 
+> 4. Seleciona o resultado desejado.
+> 
+> **Solução:**
+> 
+> RESULTADO1 = π Cpf (funcionario)
+> 
+> RESULTADO2 = ρ Cpf_Funcionario ➡ Cpf (π Cpf_Funcionario (dependente))
+> 
+> RESULTADO3 = RESULTADO1 - RESULTADO2
+> 
+> RESULTADO_FINAL = π Ultimo_Nome, Primeiro_Nome (RESULTADO3 ⋈ funcionario)
+
+
