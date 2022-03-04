@@ -24,3 +24,7 @@
 
 
 #### - Desafios - [Lista de desafios resolvidos](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/DESAFIOS.md)
+
+### Modelagem de banco de dados relacional: Diagrama ER e Modelo Relacional
+
+#### - [Diagrama ER e Modelo Relacional](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Modelagem-de-dados3.md)
