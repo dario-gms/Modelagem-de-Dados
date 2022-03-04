@@ -14,7 +14,15 @@
 > A1 e A4 são atributos chaves.
 > 
 > A2 é um atributo composto, tendo A21 e A22 como seus atributos.
-> 
+
+- Regra 2 - *para cada tipo de entidade fraca F no esquema ER, que possui entidade proprietária E, criaremos uma relação R com todos os atributos simples, ou componentes simples dos atributos compostos de F como atributos R.*
+
+**Exemplo:**
+
+
+![image](https://user-images.githubusercontent.com/86432208/156820393-197b5df9-55ed-4dcd-9705-d72e701e8651.png)
+![image](https://user-images.githubusercontent.com/86432208/156820441-a1512586-1dd4-4ff6-89e6-e03e6a1b5de6.png)
+
 
 
 
