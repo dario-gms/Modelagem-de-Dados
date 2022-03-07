@@ -46,6 +46,17 @@
 ![image](https://user-images.githubusercontent.com/86432208/157085011-de3c3857-2696-4f6a-bfc4-a6c57e6f3bd5.png)
 
 
+## Generalização/Especialização
+
+> *é usado para atributos multivalorados e é representado por um triângulo.*
+
+**Exemplo:**
+
+![image](https://user-images.githubusercontent.com/86432208/157089502-16a518ae-2e2f-4eec-ad25-de32a5ca17b2.png)
+
+
+
+
 
 
 
