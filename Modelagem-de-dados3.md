@@ -32,12 +32,19 @@
 
 ![image](https://user-images.githubusercontent.com/86432208/157042809-a269a646-5323-4c56-9fe3-91aa43c865ef.png)
 
-- Regra 5 - Para cada relacionamento R binário N:M, crie uma nova relação U para representar R.
+- Regra 5 - *para cada relacionamento R binário N:M, crie uma nova relação U para representar R.*
 
 **Exemplo:**
 
 ![image](https://user-images.githubusercontent.com/86432208/157083553-aa9d4e2f-a275-4be8-8047-0feed89d2c17.png)
 ![image](https://user-images.githubusercontent.com/86432208/157084029-1cf665d7-0e3e-44ed-8db6-5cf8420eb02a.png)
+
+- Regra 6 - *para cada atributo multivalorado A, da entidade S, crie uma nova relação R. Esta relação R incluirá um atributo correspondente a A mais o atributo da chave primária de S como chave estrangeira.*
+
+**Exemplo:**
+
+![image](https://user-images.githubusercontent.com/86432208/157085011-de3c3857-2696-4f6a-bfc4-a6c57e6f3bd5.png)
+
 
 
 
