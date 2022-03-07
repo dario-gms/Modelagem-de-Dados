@@ -22,11 +22,17 @@
 ![image](https://user-images.githubusercontent.com/86432208/156820393-197b5df9-55ed-4dcd-9705-d72e701e8651.png)
 ![image](https://user-images.githubusercontent.com/86432208/156820441-a1512586-1dd4-4ff6-89e6-e03e6a1b5de6.png)
 
-- Regra 3 
+- Regra 3 -  *para cada relacionamento “R” do tipo 1:1 nós vamos identificar as relações “S” e “T” que correspondem aos tipos de entidades que participam de “E”.*
 
-**Exemplo: *para cada relacionamento “R” do tipo 1:1 nós vamos identificar as relações “S” e “T” que correspondem aos tipos de entidades que participam de “E”.*
+**Exemplo:
 
 ![image](https://user-images.githubusercontent.com/86432208/157040448-fbb58493-1a58-43e0-9630-31656beff422.png)
+
+- Regra 4 - *para os relacionamentos R binários 1 para N, identificamos a relação T representada pela entidade participante do lado N. logo inclua como chave estrangeira T a chave primária da relação S.*
+
+![image](https://user-images.githubusercontent.com/86432208/157042809-a269a646-5323-4c56-9fe3-91aa43c865ef.png)
+
+
 
 
 
