@@ -30,3 +30,5 @@
 #### - [Modelo Relacional](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Modelagem-de-dados3.md)
 
 #### - Projeto - [Modelo Relacional](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Modelo_relacional.md)
+
+>***Obs.:** *Necessário software [SQL Power](http://www.bestofbi.com/page/architect_download_os) para visualização do projeto.* 
