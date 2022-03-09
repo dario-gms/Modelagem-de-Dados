@@ -13,14 +13,76 @@
   <table id="TAB1" populated="true" UUID="250fcbf0-d7b6-4a84-8ad2-3fd8b2f4385d" name="CLIENTE" objectType="TABLE" physicalName="TB_CLIENTE" >
    <remarks></remarks>
    <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
-    <index id="IDX2" populated="true" UUID="f213f019-bef1-4d7c-9f1a-3b344a9e0a68" clustered="false" name="TB_CLIENTE_pk" physicalName="TB_CLIENTE_pk" primaryKeyIndex="true" unique="false" >
+    <column id="COL2" populated="true" UUID="59ba19cc-6154-4f9c-ac8e-d7566e9d4f3c" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_COD_CLIENTE_seq" defaultValue="" name="COD_CLIENTE" nullable="0" physicalName="COD_CLIENTE" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="a7769641-d073-48b6-8b51-7b7c5141cd3c" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_NOME_seq" defaultValue="" name="NOME" nullable="0" physicalName="NOME" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="adabe510-d77c-45bb-ad97-5081a7fb4220" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_EMAIL_seq" defaultValue="" name="EMAIL" nullable="0" physicalName="EMAIL" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="4ec8fb4c-b082-42f6-801d-9902b952885d" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_TELEFONE_seq" defaultValue="" name="TELEFONE" nullable="0" physicalName="TELEFONE" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="bea718cc-06ed-41d5-9875-48098a647c88" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_RUA_seq" defaultValue="" name="RUA" nullable="0" physicalName="RUA" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="1a411c8f-3085-4634-b0dd-fc4842735102" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_TELEFONE_seq" defaultValue="" name="TELEFONE" nullable="0" physicalName="TELEFONE" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="67e6af2b-a712-42ef-8a49-3f1af7fd749b" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_COMPLEMENTO_seq" defaultValue="" name="COMPLEMENTO" nullable="0" physicalName="COMPLEMENTO" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="732eb23d-aaca-4342-9c9b-9dd920a20c1c" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_CEP_seq" defaultValue="" name="CEP" nullable="0" physicalName="CEP" precision="9" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="c8a35b0d-2298-4585-8bb2-8f7ad1921300" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_CIDADE_seq" defaultValue="" name="CIDADE" nullable="0" physicalName="CIDADE" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="d4fb75ff-28f9-424e-83f3-764811d3f644" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_ESTADO_seq" defaultValue="" name="ESTADO" nullable="0" physicalName="ESTADO" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX12" populated="true" UUID="f213f019-bef1-4d7c-9f1a-3b344a9e0a68" clustered="false" name="TB_CLIENTE_pk" physicalName="TB_CLIENTE_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC13" populated="true" UUID="633c6f34-7c41-4b7f-90bf-ec69fcb34b96" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="COD_CLIENTE" physicalName="COD_CLIENTE" />
     </index>
    </folder>
   </table>
-  <table id="TAB3" populated="true" UUID="4aef49f2-f67e-498b-928e-80d635bd2655" name="EDITORA" objectType="TABLE" physicalName="TB_EDITORA" >
+  <table id="TAB14" populated="true" UUID="4aef49f2-f67e-498b-928e-80d635bd2655" name="EDITORA" objectType="TABLE" physicalName="TB_EDITORA" >
    <remarks></remarks>
-   <folder id="FOLTAB31" populated="true" name="Columns" physicalName="Columns" type="1">
-    <index id="IDX4" populated="true" UUID="dac3e863-f6b7-45c5-9edf-edb1d14122c6" clustered="false" name="TB_EDITORA_pk" physicalName="TB_EDITORA_pk" primaryKeyIndex="true" unique="false" >
+   <folder id="FOLTAB141" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL15" populated="true" UUID="7324a2cf-2142-4a46-bbf8-69fe97b2b5cf" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_COD_EDITORA_seq" defaultValue="" name="COD_EDITORA" nullable="0" physicalName="COD_EDITORA" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL16" populated="true" UUID="465eabcf-2bcc-4cb1-a3b8-745981fd623d" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_NOME_seq" defaultValue="" name="NOME" nullable="0" physicalName="NOME" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL17" populated="true" UUID="08d11644-505e-446a-937b-799eb440788d" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_CONTATO_seq" defaultValue="" name="CONTATO" nullable="0" physicalName="CONTATO" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="0414977e-ab58-4828-a787-c0d32637f18d" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_EMAIL_seq" defaultValue="" name="EMAIL" nullable="0" physicalName="EMAIL" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="d64703b6-bf54-41b9-908d-d7991be33246" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_TELEFONE1_seq" defaultValue="" name="TELEFONE1" nullable="0" physicalName="TELEFONE1" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="083f2020-b30c-4779-89bc-1ada4d59920a" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_TELEFONE2_seq" defaultValue="" name="TELEFONE2" nullable="0" physicalName="TELEFONE2" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB143" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB142" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB144" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX21" populated="true" UUID="dac3e863-f6b7-45c5-9edf-edb1d14122c6" clustered="false" name="TB_EDITORA_pk" physicalName="TB_EDITORA_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC22" populated="true" UUID="3deff236-a105-458a-aa07-5e40e619c911" ascendingOrDescending="UNSPECIFIED" column-ref="COL15" name="COD_EDITORA" physicalName="COD_EDITORA" />
     </index>
    </folder>
   </table>
@@ -31,8 +93,8 @@
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="44" y="103" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB3" x="208" y="103" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB1" x="30" y="108" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB14" x="340" y="118" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">
