@@ -42,4 +42,4 @@
 
 ### Modelagem de banco de dados relacional: normalização
 
-#### [Normalização](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Normalizacao.md)
+#### - [Normalização](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Normalizacao.md)
