@@ -53,4 +53,8 @@
 - O valor do atributo na Tupla é desconhecido.
 - O valor do atributo na Tupla é conhecido, mas está ausente.
 
+### Dependência Funcional
+
+> Diz que, se dois conjuntos de atributos são Dependentes Funcionais se tuplas do conjunto Y depende do conjunto X. Ou os valores de tuplas pertencentes ao conjunto X determinam exclusivamente os valores do conjunto Y.
+
 
