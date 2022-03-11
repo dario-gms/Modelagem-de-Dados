@@ -30,4 +30,19 @@
  
 ![Captura de tela 2022-03-11 095725](https://user-images.githubusercontent.com/86432208/157870845-5cefbea4-82c9-4b2c-a89f-cf2e2c810db0.png)
 
+#### Diretriz 3:
+
+> Evite ao máximo colocar atributos em uma relação básica cujos valores podem ser nulos com frequência.
+
+![image](https://user-images.githubusercontent.com/86432208/157895229-fd8dbeed-295b-4a72-bf2f-911359203c14.png)
+![image](https://user-images.githubusercontent.com/86432208/157895381-a503cd27-dd3f-4dc9-a5c8-521840714186.png)
+
+
+
+### Interpretações do Nulo
+
+- O valor do atributo não se aplica a esta Tupla.
+- O valor do atributo na Tupla é desconhecido.
+- O valor do atributo na Tupla é conhecido, mas está ausente.
+
 
