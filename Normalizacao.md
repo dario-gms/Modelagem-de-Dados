@@ -56,5 +56,7 @@
 ### Dependência Funcional
 
 > Diz que, se dois conjuntos de atributos são Dependentes Funcionais se tuplas do conjunto Y depende do conjunto X. Ou os valores de tuplas pertencentes ao conjunto X determinam exclusivamente os valores do conjunto Y.
+> 
+> Ela é uma proriedade do esquema da relação e não um estado da relação. Ela não pode ser deduzida de forma automática.
 
 
