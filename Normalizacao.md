@@ -59,4 +59,11 @@
 > 
 > Ela é uma proriedade do esquema da relação e não um estado da relação. Ela não pode ser deduzida de forma automática.
 
+### Forma Normal (FN)
+
+> ** Conjunto de regras que visa, principalmente, a organização de um projeto de banco de dados para reduzir a redundância, aumentar a integridade e o desempenho dos dados.**
+
+![image](https://user-images.githubusercontent.com/86432208/158438809-dabbe4e7-917b-4e6c-ae07-ae3a4bf690fe.png)
+
+
 
