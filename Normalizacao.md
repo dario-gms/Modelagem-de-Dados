@@ -65,5 +65,13 @@
 
 ![image](https://user-images.githubusercontent.com/86432208/158438809-dabbe4e7-917b-4e6c-ae07-ae3a4bf690fe.png)
 
+### Primeira forma normal (1FN)
+
+> - Cada Tupla contém exatamente um valor para cada atributo;
+> 
+> - Os atributos devem ser atômicos e indivisíveis;
+> 
+> - Atributos compostos e multivalorados devem ser representados por novas linhas ou novas tabelas;
+
 
 
