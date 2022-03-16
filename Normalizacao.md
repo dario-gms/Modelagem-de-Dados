@@ -61,7 +61,7 @@
 
 ### Forma Normal (FN)
 
-> ** Conjunto de regras que visa, principalmente, a organização de um projeto de banco de dados para reduzir a redundância, aumentar a integridade e o desempenho dos dados.**
+> **Conjunto de regras que visa, principalmente, a organização de um projeto de banco de dados para reduzir a redundância, aumentar a integridade e o desempenho dos dados.**
 
 ![image](https://user-images.githubusercontent.com/86432208/158438809-dabbe4e7-917b-4e6c-ae07-ae3a4bf690fe.png)
 
@@ -74,6 +74,14 @@
 > - Atributos compostos e multivalorados devem ser representados por novas linhas ou novas tabelas;
 > 
 > - Na decomposição, todos os dados da primeira relação estão representados em duas novas relações.
+
+### Segunda forma normal (2FN)
+
+> - Conceito baseado em Dependência Funcional Total;
+> 
+> Uma Dependência Funcional Total é aquela em que a remoção de algum atributo A do conjunto X faz com que a Dependência deixe de valer.
+>
+>  Uma Dependência Funcional Parcial é aquela em que a remoção de algum atributo A do conjunto X faz com que a Dependência ainda se mantenha.
 
 
 
