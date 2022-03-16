@@ -72,6 +72,8 @@
 > - Os atributos devem ser atômicos e indivisíveis;
 > 
 > - Atributos compostos e multivalorados devem ser representados por novas linhas ou novas tabelas;
+> 
+> - Na decomposição, todos os dados da primeira relação estão representados em duas novas relações.
 
 
 
