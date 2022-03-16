@@ -87,5 +87,14 @@
 >  
 >  Uma relação encontra-se na segunda forma normal se, e somente se, estiver na primeira forma normal e não contiver dependências parciais que envolvam a chave primária.
 
+![image](https://user-images.githubusercontent.com/86432208/158670390-b747fe32-6901-4e16-81a4-1c42608ad201.png)
+
+- DF1 - Envolve todas as duas chaves primárias - TOTAL - É uma DF Total.
+- DF2 - Envolve somente uma das chaves primárias para ser TOTAL - É uma DF Parcial.
+- DF3 - Envolve somente uma das chaves primárias para ser TOTAL - É uma DF Parcial.
+
+> O fato da relação não estar na segunda forma normal gera anomalias de Inserção, Modificação ou Exclusão.
+
+
 
 
