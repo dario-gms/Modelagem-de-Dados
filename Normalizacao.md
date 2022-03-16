@@ -79,9 +79,13 @@
 
 > - Conceito baseado em Dependência Funcional Total;
 > 
-> Uma Dependência Funcional Total é aquela em que a remoção de algum atributo A do conjunto X faz com que a Dependência deixe de valer.
+>  Uma Dependência Funcional Total é aquela em que a remoção de algum atributo A do conjunto X faz com que a Dependência deixe de valer.
 >
 >  Uma Dependência Funcional Parcial é aquela em que a remoção de algum atributo A do conjunto X faz com que a Dependência ainda se mantenha.
+>  
+>  O esquema de relação R está na segunda forma normal se cada atributo não principal de A em R por total e funcionalmente dependente da chave primária de R.
+>  
+>  Uma relação encontra-se na segunda forma normal se, e somente se, estiver na primeira forma normal e não contiver dependências parciais que envolvam a chave primária.
 
 
 
