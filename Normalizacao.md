@@ -104,3 +104,7 @@
 > Em outras palavras: Dependência transitiva ocorre quando um atributo, além de depender da chave primária, dependende de outro atributo não chave. 
 > 
 > Um esquema está na 3FN se ele estiver na 2FN e nenhum atributo não principal de R(ou seja, não chave) for transitivamente dependente da chave primária.
+
+- Relação está na 3FM se nenhuma coluna possui Dependência Transitiva em relação a outra coluna que não participe da chave primária.
+- Devemos decompor a Relação original em outra que contenha as colunas que dependem transitivamente da outra coluna que não faz parte da chave primária.
+- Não devemos ter colunas calculadas que sejam derivdas de algum cálculo sobre outras colunas. (Eesta regra, na prática, possui exceções).
