@@ -95,6 +95,12 @@
 
 > O fato da relação não estar na segunda forma normal gera anomalias de Inserção, Modificação ou Exclusão.
 
+### Terceira forma normal (3FN)
 
+- Conceito baseado em Dependência Transitiva;
 
-
+> Uma Dependência Transitiva é tal que, em uma DF X --> Y haja atributos Z da relação que não sejam chaves candidatas nem subconjuntos de chaves primárias de R e em que X -> Z e Z -> Y se mantém.
+> 
+> Em outras palavras: Dependência transitiva ocorre quando um atributo, além de depender da chave primária, dependende de outro atributo não chave. 
+> 
+> Um esquema está na 3FN se ele estiver na 2FN e nenhum atributo não principal de R(ou seja, não chave) for transitivamente dependente da chave primária.
