@@ -109,7 +109,7 @@
 - Devemos decompor a Relação original em outra que contenha as colunas que dependem transitivamente da outra coluna que não faz parte da chave primária.
 - Não devemos ter colunas calculadas que sejam derivdas de algum cálculo sobre outras colunas. (Eesta regra, na prática, possui exceções).
 
-### Forma Boyce-Cood (FNBC)
+### Forma Boyce-Codd (FNBC)
 
 **1FN** - Eliminar os atributos multivalorados (ou compostos). 
 
@@ -117,9 +117,9 @@
 
 **3FN** - Eliminar atributos que dependem de atributos não chaves. - *Algumas exceções!*
 
-> A forma Normal Boyce-Cood veio para simplificar a definição da 3FN mas acabou sendo mais criteriosa.
+> A forma Normal Boyce-Codd veio para simplificar a definição da 3FN mas acabou sendo mais criteriosa.
 > 
-> Uma relação está na Forma Normal Boyce-Cood se toda a a Dependência Funcional NÃO TRIVIAL se mantiver em R, então o Determinante de ser uma Chave Candidata.
+> Uma relação está na Forma Normal Boyce-Codd se toda a a Dependência Funcional NÃO TRIVIAL se mantiver em R, então o Determinante de ser uma Chave Candidata.
 > 
 > FNBC existe quanto toda a Dependência Funcional da Relação tem como Determinante uma Chave Candidata.
 > 
