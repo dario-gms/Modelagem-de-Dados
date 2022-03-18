@@ -124,3 +124,11 @@
 > FNBC existe quanto toda a Dependência Funcional da Relação tem como Determinante uma Chave Candidata.
 > 
 > As únicas setas no diagrama DF são setas originárias de chaves candidatas.
+
+### Quarta forma normal (4FN)
+
+> **Dependência Multivalorada:** Dado uma relação R com 3 conjuntos de atributos A, B e C dizemos que B é multidependente de A, ou A multidetermina B se e somente se em todas as tuplas de R que corresponde a determinado par de valores A com C, B depende apenas de A e independe de C.
+> 
+> A dependência multivalorada ocorre quando dois atributos em uma tabela são independentes um do outro, mas ambos dependem de um terceiro atributo. Uma dependência multivalorada consiste em pelo menos dois atributos que dependem de um terceiro atributo, por isso sempre exige pelo menos três atributos.
+> 
+> Uma relação está na 4FN quando ela está na 3FN e não possui nenhuma Dependência Multivalorada.
