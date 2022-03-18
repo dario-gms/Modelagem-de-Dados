@@ -112,7 +112,9 @@
 ### Forma Boyce-Cood (FNBC)
 
 **1FN** - Eliminar os atributos multivalorados (ou compostos). 
+
 **2FN** - Eliminar atributos que dependam apenas de parte da chave primária.
+
 **3FN** - Eliminar atributos que dependem de atributos não chaves. - *Algumas exceções!*
 
 > A forma Normal Boyce-Cood veio para simplificar a definição da 3FN mas acabou sendo mais criteriosa.
