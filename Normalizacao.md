@@ -108,3 +108,11 @@
 - Relação está na 3FM se nenhuma coluna possui Dependência Transitiva em relação a outra coluna que não participe da chave primária.
 - Devemos decompor a Relação original em outra que contenha as colunas que dependem transitivamente da outra coluna que não faz parte da chave primária.
 - Não devemos ter colunas calculadas que sejam derivdas de algum cálculo sobre outras colunas. (Eesta regra, na prática, possui exceções).
+
+### Forma Boyce-Cood (FNBC)
+
+**1FN** - Eliminar os atributos multivalorados (ou compostos). 
+**2FN** - Eliminar atributos que dependam apenas de parte da chave primária.
+**3FN** - Eliminar atributos que dependem de atributos não chaves. - *Algumas exceções!*
+
+> A forma Normal Boyce-Cood veio para simplificar a definição da 3FN mas acabou sendo mais criteriosa.
