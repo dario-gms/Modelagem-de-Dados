@@ -132,3 +132,9 @@
 > A dependência multivalorada ocorre quando dois atributos em uma tabela são independentes um do outro, mas ambos dependem de um terceiro atributo. Uma dependência multivalorada consiste em pelo menos dois atributos que dependem de um terceiro atributo, por isso sempre exige pelo menos três atributos.
 > 
 > Uma relação está na 4FN quando ela está na 3FN e não possui nenhuma Dependência Multivalorada.
+
+### Quinta forma normal (5FN)
+
+> Uma tabela estará em 5FN se estiver em 4FN e não contiver DJs que não sejam determinadas por chaves candidatas. Em outras palavras, se for possível n-decompor a tabela, então ela deverá ser substituída por suas *n* projeções para estar na 5FN.
+
+
