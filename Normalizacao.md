@@ -118,3 +118,9 @@
 **3FN** - Eliminar atributos que dependem de atributos não chaves. - *Algumas exceções!*
 
 > A forma Normal Boyce-Cood veio para simplificar a definição da 3FN mas acabou sendo mais criteriosa.
+> 
+> Uma relação está na Forma Normal Boyce-Cood se toda a a Dependência Funcional NÃO TRIVIAL se mantiver em R, então o Determinante de ser uma Chave Candidata.
+> 
+> FNBC existe quanto toda a Dependência Funcional da Relação tem como Determinante uma Chave Candidata.
+> 
+> As únicas setas no diagrama DF são setas originárias de chaves candidatas.
