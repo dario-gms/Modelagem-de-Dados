@@ -43,3 +43,7 @@
 ### Modelagem de banco de dados relacional: normalização
 
 #### - [Normalização](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Normalizacao.md)
+
+### Modelagem de banco de dados relacional: Entendendo SQL
+
+#### - [Entendendo SQL](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Entendendo-sql.md)
