@@ -39,7 +39,6 @@
 
 > **[Arquivo projeto Empresa](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/projeto2.architect)**
 
-
 ### Modelagem de banco de dados relacional: normalização
 
 #### - [Normalização](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Normalizacao.md)
