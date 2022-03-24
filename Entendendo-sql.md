@@ -23,5 +23,5 @@
 
 ### Desvantagens do padrão SQL
 
-- Falta de criatividade: Citar os bancos de dados NOSQLs.
+- Falta de criatividade: Citar os bancos de dados NoSQLs.
 - Falta de estruturação: Estruturas muito simples.
