@@ -25,3 +25,7 @@
 
 - Falta de criatividade: Citar os bancos de dados NoSQLs.
 - Falta de estruturação: Estruturas muito simples.
+
+## Comandos SQL
+
+- CREATE TABLE - *Efetua a criação de uma tabela no banco de dados.*
