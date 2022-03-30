@@ -30,3 +30,4 @@
 
 - CREATE TABLE - *Efetua a criação de uma tabela no banco de dados.*
 - ALTER TABLE - *Cria uma chave estrangeira em um banco da dados.*
+- INSERT INTO - *Insere dados em uma tabela.*
