@@ -31,3 +31,4 @@
 - CREATE TABLE - *Efetua a criação de uma tabela no banco de dados.*
 - ALTER TABLE - *Cria uma chave estrangeira em um banco da dados.*
 - INSERT INTO - *Insere dados em uma tabela.*
+- SET FOREIGN_KEY_CHECKS = 0 ou 1 - *Desliga ou liga as restrições, respectivamente.*
