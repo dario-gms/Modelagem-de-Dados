@@ -33,3 +33,4 @@
 - INSERT INTO - *Insere dados em uma tabela.*
 - SET FOREIGN_KEY_CHECKS = 0 ou 1 - *Desliga ou liga as restrições, respectivamente.*
 - UPDATE - *Modifica os valores de um atributo de uma ou mais tuplas.*
+- DELETE - *Remove tuplas da relação.*
