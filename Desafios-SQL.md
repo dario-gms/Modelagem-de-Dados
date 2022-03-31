@@ -40,4 +40,26 @@ where tb_projeto.LOCAL_PROJETO = 'Mauá';
 
 ![image](https://user-images.githubusercontent.com/86432208/161080297-179da0a4-65c8-4151-9082-2fcdb3b8345b.png)
 
+## Desafio 3
+
+> Descobrir os Nomes dos Funcionários que trabalham em todos os Projetos controlados pelo Departamento número 5.
+
+### Resultado
+
+select tb_funcionario.PRIMEIRO_NOME, tb_funcionario.NOME_MEIO, tb_funcionario.ULTIMO_NOME from tb_projeto
+
+inner join tb_trabalha_em on tb_projeto.NUMERO_PROJETO = tb_trabalha_em.NUMERO_PROJETO
+
+inner join tb_funcionario on tb_trabalha_em.CPF_FUNCIONARIO = tb_funcionario.CPF
+
+where tb_projeto.NUMERO_DEPARTAMENTO = 5
+
+group by tb_funcionario.PRIMEIRO_NOME, tb_funcionario.NOME_MEIO, tb_funcionario.ULTIMO_NOME
+
+having count(*) = (select count(*) from tb_projeto where tb_projeto.NUMERO_DEPARTAMENTO = 5);
+
+![image](https://user-images.githubusercontent.com/86432208/161092971-b1c7c33f-3e7f-4941-b705-6b9a10c6e4b2.png)
+
+
+
 
