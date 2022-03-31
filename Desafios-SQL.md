@@ -20,4 +20,24 @@ where tb_departamento.NOME_DEPARTAMENTO = 'Pesquisa';
 
 ![image](https://user-images.githubusercontent.com/86432208/161077397-06543394-d891-4586-8eae-8780f36303c5.png)
 
+## Desafio 2
+
+> Para cada Projeto localizado em 'Mauá', liste o Número do Departamento que o controla e o Último Nome, Endereço e Data de Nascimento do Gerente do Departamento.
+
+### Resultado
+
+select tb_projeto.NUMERO_PROJETO, tb_projeto.NUMERO_DEPARTAMENTO, tb_funcionario.ULTIMO_NOME,
+
+tb_funcionario.ENDERECO, tb_funcionario.DATA_NASCIMENTO from
+
+tb_projeto
+
+inner join tb_departamento on tb_projeto.NUMERO_DEPARTAMENTO = tb_departamento.NUMERO_DEPARTAMENTO
+
+inner join tb_funcionario on tb_funcionario.CPF = tb_departamento.CPF_GERENTE
+
+where tb_projeto.LOCAL_PROJETO = 'Mauá';
+
+![image](https://user-images.githubusercontent.com/86432208/161080297-179da0a4-65c8-4151-9082-2fcdb3b8345b.png)
+
 
