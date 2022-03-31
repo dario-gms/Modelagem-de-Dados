@@ -100,6 +100,21 @@ where tb_dependente.CPF_FUNCIONARIO is null;
 
 ![image](https://user-images.githubusercontent.com/86432208/161102104-de5c4473-1121-426a-812d-1271b4137455.png)
 
+## Desafio 6
+
+> Listar os nomes dos gerentes que possuem pelo menos um dependente.
+
+### Resultado
+
+select distinct tb_funcionario.PRIMEIRO_NOME, tb_funcionario.NOME_MEIO, tb_funcionario.ULTIMO_NOME from tb_funcionario
+
+inner join tb_dependente on tb_funcionario.CPF = tb_dependente.CPF_FUNCIONARIO
+
+inner join tb_departamento on tb_funcionario.CPF = tb_departamento.CPF_GERENTE;
+
+![image](https://user-images.githubusercontent.com/86432208/161102921-e29a48a5-cd93-4363-ba14-8a61cd73e599.png)
+
+
 
 
 
