@@ -47,5 +47,7 @@
 
 #### - [Entendendo SQL](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Entendendo-sql.md)
 
-> ***Obs.:** *Necessário software [uniform server](https://sourceforge.net/projects/miniserver/) e [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)*. 
+> ***Obs.:** *Necessário software [uniform server](https://sourceforge.net/projects/miniserver/) e [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)*.
+> 
+> **[Arquivo Projeto](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Desafios-SQL.sql)**
 #### - Desafios - [Desafios resolvidos](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Desafios-SQL.md)
