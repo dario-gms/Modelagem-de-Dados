@@ -84,6 +84,23 @@ where tb_funcionario.ULTIMO_NOME = 'Souza';
 
 ![image](https://user-images.githubusercontent.com/86432208/161101308-4ee66f42-2b53-45f7-b388-e1141095c491.png)
 
+## Desafio 5
+
+> Recuperar o nome dos funcionários que não possuem dependentes.
+
+### Resultado
+
+select tb_funcionario.PRIMEIRO_NOME, tb_funcionario.NOME_MEIO, tb_funcionario.ULTIMO_NOME from tb_funcionario
+
+left join tb_dependente
+
+on tb_funcionario.CPF = tb_dependente.CPF_FUNCIONARIO
+
+where tb_dependente.CPF_FUNCIONARIO is null;
+
+![image](https://user-images.githubusercontent.com/86432208/161102104-de5c4473-1121-426a-812d-1271b4137455.png)
+
+
 
 
 
