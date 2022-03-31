@@ -60,6 +60,31 @@ having count(*) = (select count(*) from tb_projeto where tb_projeto.NUMERO_DEPAR
 
 ![image](https://user-images.githubusercontent.com/86432208/161092971-b1c7c33f-3e7f-4941-b705-6b9a10c6e4b2.png)
 
+## Desafio 4
+
+> Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.
+
+### Resultado
+
+select tb_trabalha_em.NUMERO_PROJETO from tb_funcionario
+
+inner join tb_trabalha_em on tb_funcionario.CPF = tb_trabalha_em.CPF_FUNCIONARIO
+
+where tb_funcionario.ULTIMO_NOME = 'Souza'
+
+union
+
+select tb_projeto.NUMERO_PROJETO from tb_funcionario
+
+inner join tb_departamento on tb_funcionario.CPF = tb_departamento.CPF_GERENTE
+
+inner join tb_projeto on tb_projeto.NUMERO_DEPARTAMENTO = tb_departamento.NUMERO_DEPARTAMENTO
+
+where tb_funcionario.ULTIMO_NOME = 'Souza';
+
+![image](https://user-images.githubusercontent.com/86432208/161101308-4ee66f42-2b53-45f7-b388-e1141095c491.png)
+
+
 
 
 
