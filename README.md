@@ -51,3 +51,5 @@
 > 
 > **[Arquivo Projeto](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Desafios-SQL.sql)**
 #### - Desafios - [Desafios resolvidos](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/Desafios-SQL.md)
+
+### Modelagem de banco de dados relacional: Começando com NoSQL
