@@ -55,3 +55,7 @@
 ### Modelagem de banco de dados relacional: Começando com NoSQL
 
 #### - [Começando com NoSQL](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/No-SQL.md)
+
+> ***Obs.:** *Necessário software [uniform server](https://sourceforge.net/projects/miniserver/) e [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)*.
+
+#### - [Desafio 1](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/desafio-noSQL.md)
