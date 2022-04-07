@@ -24,4 +24,39 @@
 ![image](https://user-images.githubusercontent.com/86432208/161593799-b97c1887-968f-4a9f-b9b7-cbf4ba104f98.png)
 
 
+## NoSQL - Not Only SQL
+
+- Para sistemas que precisam ampliar as necessidades de gerenciamento de dados.
+- São bancos de dados DISTRIBUÍDOS;
+- Foco no armazenamento de dados SEMI-ESTRUTURADOS;
+- Alta disponibilidade;
+- Replicação de dados;
+- Escalabilidade.
+
+> Gerenciar um alto volume de dados, não necessariamente estruturados, que não estejam modelando um processo.
+> 
+> Google, Amazon, Facebook, Twitter, Mídia social, mapas, links web, postagens, etc...
+
+**Exemplos:**
+
+**Google - [BigTable](https://cloud.google.com/bigtable/docs/overview?hl=pt-br)** - *Baseado no **[Apache Hbase](https://hbase.apache.org/).*** 
+
+**Amazon - [DynamoDB](https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/Introduction.html)** - *Chave-objeto.*
+
+**Facebook - [Cassandra](https://cassandra.apache.org/_/index.html)** - *Chave-valor.*
+
+**Outros bancos da dados NoSQL:** **[MongoDB](https://www.mongodb.com/pt-br)** e **[CouchDB](https://couchdb.apache.org/)** - *Armazenamento de documentos;*
+
+**Bancos baseados em Grafos** - **[Neo4j](https://neo4j.com/)** e **[Graphbase](https://graphbase.ai/)**.
+
+## SQL - Relacionais
+
+- Ênfase na consistência de dados;
+- Linguagem de consultas poderosas;
+- Armazenamento de dados estruturados.
+
+> Para representar TRANSAÇÕES dentro de uma empresa: Compras, vendas, produção, etc...
+> 
+> Bancos de dados Relacionais SQL Tradicionais(imbatíveis!).
+
 
