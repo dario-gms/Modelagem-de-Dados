@@ -53,3 +53,6 @@ Parentesco VARCHAR(10) PATH "$.Parentesco")) AS tb_object_dependente
 ON JSON_EXTRACT(tb_object_funcionario.`JSON`,"$.Cpf") = tb_dependente.Cpf_Funcionario
 
 WHERE tb_dependente.Cpf_Funcionario IS NULL;
+
+
+![image](https://user-images.githubusercontent.com/86432208/162219611-0ccf41e0-1b4e-47a3-9287-3ba8aca18e00.png)
