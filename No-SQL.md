@@ -59,4 +59,13 @@
 > 
 > Bancos de dados Relacionais SQL Tradicionais(imbatíveis!).
 
+### Sistemas NoSQL - Dados distribuídos
+
+- **Escalabilidade:** Horizontal;
+- Replicação em nós diferentes;
+- Modelos de recplicação *mestre-escravo* e *mestre-mestre*;
+- Sharding de arquivos;
+- Acesso a dados de alto desempenho: hashing ou particionamento por intervalo;
+
+
 
