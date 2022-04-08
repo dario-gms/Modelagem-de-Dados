@@ -1,0 +1,671 @@
+[{
+  "_id": {
+    "$oid": "5f1cf9a2d64032133c7e5e25"
+  },
+  "Cpf": "44222555587",
+  "Sexo": "F",
+  "Salario": 36000,
+  "Endereco": "Rua 9 de Julho 800 São Paulo SP",
+  "Nome_Meio": "G",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2007-01-21T02:12:00Z"
+      },
+      "Nome_Dependente": "Claudio"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1977-01-12T03:03:00Z"
+      },
+      "Nome_Dependente": "Juvenal"
+    }
+  ],
+  "Ultimo_Nome": "Martinez",
+  "Primeiro_Nome": "Cláudia",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1978-01-15T03:07:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a2d64032133c7e5e26"
+  },
+  "Cpf": "44333555587",
+  "Sexo": "M",
+  "Salario": 34000,
+  "Endereco": "Rua Abelardo Barbosa 412 São Paulo SP",
+  "Nome_Meio": "K",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Esposa",
+      "Data_Nascimento": {
+        "$date": "1979-01-12T03:11:00Z"
+      },
+      "Nome_Dependente": "Katia"
+    },
+    {
+      "Sexo": "F",
+      "Parentesco": "Filha",
+      "Data_Nascimento": {
+        "$date": "2003-01-12T02:11:00Z"
+      },
+      "Nome_Dependente": "Marcela"
+    },
+    {
+      "Sexo": "F",
+      "Parentesco": "Filha",
+      "Data_Nascimento": {
+        "$date": "2005-01-12T02:11:00Z"
+      },
+      "Nome_Dependente": "Maria"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2009-01-01T02:08:00Z"
+      },
+      "Nome_Dependente": "Rodrigo"
+    }
+  ],
+  "Ultimo_Nome": "Souza",
+  "Primeiro_Nome": "Marcelo",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1977-01-15T03:07:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a2d64032133c7e5e27"
+  },
+  "Cpf": "44444555587",
+  "Sexo": "F",
+  "Salario": 38000,
+  "Endereco": "Rua das Alamedas 39 São Paulo SP",
+  "Nome_Meio": "T",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1981-01-14T03:06:00Z"
+      },
+      "Nome_Dependente": "Jonas"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2006-01-12T02:04:00Z"
+      },
+      "Nome_Dependente": "Orlando"
+    }
+  ],
+  "Ultimo_Nome": "Lux",
+  "Primeiro_Nome": "Fatima",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1981-01-12T03:08:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a2d64032133c7e5e28"
+  },
+  "Cpf": "44777555587",
+  "Sexo": "M",
+  "Salario": 18000,
+  "Endereco": "Rua Dos Invalidos 55 Rio de Janeiro RJ",
+  "Nome_Meio": "K",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Esposa",
+      "Data_Nascimento": {
+        "$date": "1991-01-02T02:04:00Z"
+      },
+      "Nome_Dependente": "Priscila"
+    }
+  ],
+  "Ultimo_Nome": "Pedrosa",
+  "Primeiro_Nome": "Tonico",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1984-01-15T03:07:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a2d64032133c7e5e29"
+  },
+  "Cpf": "44888555587",
+  "Sexo": "F",
+  "Salario": 19000,
+  "Endereco": "Rua das Palmeiras 99 Rio de Janeiro RJ",
+  "Nome_Meio": "L",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1988-01-04T02:05:00Z"
+      },
+      "Nome_Dependente": "Clecio"
+    }
+  ],
+  "Ultimo_Nome": "Motta",
+  "Primeiro_Nome": "Ruth",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1989-01-15T02:07:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a2d64032133c7e5e2a"
+  },
+  "Cpf": "45345345376",
+  "Sexo": "F",
+  "Salario": 25000,
+  "Endereco": "Av. Lucas Obes 74 São Paulo SP",
+  "Nome_Meio": "A",
+  "Ultimo_Nome": "Leite",
+  "Primeiro_Nome": "Joice",
+  "Cpf_Supervisor": "33344555587",
+  "Data_Nascimento": {
+    "$date": "1972-01-31T03:07:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e2b"
+  },
+  "Cpf": "55599922122",
+  "Sexo": "F",
+  "Salario": 41000,
+  "Endereco": "Rua Oliva de Sousa 998 Piracicaba SP",
+  "Nome_Meio": "L",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1976-01-13T03:03:00Z"
+      },
+      "Nome_Dependente": "Clovis"
+    }
+  ],
+  "Ultimo_Nome": "Tavarez",
+  "Primeiro_Nome": "Rosa",
+  "Cpf_Supervisor": "33344555587",
+  "Data_Nascimento": {
+    "$date": "1977-01-15T03:01:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e2c"
+  },
+  "Cpf": "66688444476",
+  "Sexo": "M",
+  "Salario": 38000,
+  "Endereco": "Rua Rebouças 65 Piracicaba SP",
+  "Nome_Meio": "K",
+  "Ultimo_Nome": "Lima",
+  "Primeiro_Nome": "Ronaldo",
+  "Cpf_Supervisor": "33344555587",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-251239860000"
+    }
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e2d"
+  },
+  "Cpf": "66699922122",
+  "Sexo": "F",
+  "Salario": 12000,
+  "Endereco": "Rua Cartagena 32 Piracicaba SP",
+  "Nome_Meio": "T",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1981-01-08T03:12:00Z"
+      },
+      "Nome_Dependente": "Milton"
+    }
+  ],
+  "Ultimo_Nome": "Vinil",
+  "Primeiro_Nome": "Juliana",
+  "Cpf_Supervisor": "33344555587",
+  "Data_Nascimento": {
+    "$date": "1982-01-15T03:12:00Z"
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e2e"
+  },
+  "Cpf": "77799922122",
+  "Sexo": "F",
+  "Salario": 39000,
+  "Endereco": "Rua Aribancataiu 44 Piracicaba SP",
+  "Nome_Meio": "P",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "1993-01-12T02:12:00Z"
+      },
+      "Nome_Dependente": "Havelar"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": {
+          "$numberLong": "-92872200000"
+        }
+      },
+      "Nome_Dependente": "Marcio"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "1992-01-17T02:06:00Z"
+      },
+      "Nome_Dependente": "Tulio"
+    }
+  ],
+  "Ultimo_Nome": "Costa",
+  "Primeiro_Nome": "Maria",
+  "Cpf_Supervisor": "33344555587",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-30315180000"
+    }
+  },
+  "Numero_Departamento": "5"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e2f"
+  },
+  "Cpf": "88866555576",
+  "Sexo": "M",
+  "Salario": 55000,
+  "Endereco": "Rua do Horto 35 Sáo Paulo SP",
+  "Nome_Meio": "E",
+  "Ultimo_Nome": "Brito",
+  "Primeiro_Nome": "Jorge",
+  "Cpf_Supervisor": "",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-1040590140000"
+    }
+  },
+  "Numero_Departamento": "1"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e30"
+  },
+  "Cpf": "98722332168",
+  "Sexo": "F",
+  "Salario": 18000,
+  "Endereco": "Rua Mauricio de Nassau 80 São Paulo SP",
+  "Nome_Meio": "K",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1987-01-22T02:10:00Z"
+      },
+      "Nome_Dependente": "Rodinei"
+    }
+  ],
+  "Ultimo_Nome": "Grill",
+  "Primeiro_Nome": "Priscila",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1989-01-20T02:06:00Z"
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e31"
+  },
+  "Cpf": "98733332168",
+  "Sexo": "F",
+  "Salario": 41000,
+  "Endereco": "Av Amaro de Macedo 91 Santo André SP",
+  "Nome_Meio": "P",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Neta",
+      "Data_Nascimento": {
+        "$date": "2016-01-21T02:10:00Z"
+      },
+      "Nome_Dependente": "Cristina"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": {
+          "$numberLong": "-408401400000"
+        }
+      },
+      "Nome_Dependente": "Marcio"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "1993-01-12T02:05:00Z"
+      },
+      "Nome_Dependente": "Rubens"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "1992-01-11T02:12:00Z"
+      },
+      "Nome_Dependente": "Trauco"
+    }
+  ],
+  "Ultimo_Nome": "Souza",
+  "Primeiro_Nome": "Lais",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-345502440000"
+    }
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e32"
+  },
+  "Cpf": "98743232168",
+  "Sexo": "M",
+  "Salario": 19000,
+  "Endereco": "Rua Comendador Soares 45 São Paulo SP",
+  "Nome_Meio": "T",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Filha",
+      "Data_Nascimento": {
+        "$date": "2016-01-01T02:12:00Z"
+      },
+      "Nome_Dependente": "Hilda"
+    },
+    {
+      "Sexo": "F",
+      "Parentesco": "Esposa",
+      "Data_Nascimento": {
+        "$date": "1992-01-26T02:12:00Z"
+      },
+      "Nome_Dependente": "Maria"
+    }
+  ],
+  "Ultimo_Nome": "Pereira",
+  "Primeiro_Nome": "Jaime",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": "1991-01-20T02:06:00Z"
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e33"
+  },
+  "Cpf": "98765432168",
+  "Sexo": "F",
+  "Salario": 43000,
+  "Endereco": "Av Arthur de Lima 54 Santo André",
+  "Nome_Meio": "S",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": {
+          "$numberLong": "-882133080000"
+        }
+      },
+      "Nome_Dependente": "Antonio"
+    }
+  ],
+  "Ultimo_Nome": "Souza",
+  "Primeiro_Nome": "Jeniffer",
+  "Cpf_Supervisor": "88866555576",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-913496040000"
+    }
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e34"
+  },
+  "Cpf": "98798798733",
+  "Sexo": "M",
+  "Salario": 25000,
+  "Endereco": "Rua Timbira 35 São Paulo SP",
+  "Nome_Meio": "V",
+  "Ultimo_Nome": "Pereira",
+  "Primeiro_Nome": "André",
+  "Cpf_Supervisor": "98765432168",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-29105820000"
+    }
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e35"
+  },
+  "Cpf": "99965555667",
+  "Sexo": "M",
+  "Salario": 22000,
+  "Endereco": "Rua Acuarana 91 Rio de Janeiro RJ",
+  "Nome_Meio": "R",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Esposa",
+      "Data_Nascimento": {
+        "$date": "1977-01-26T03:12:00Z"
+      },
+      "Nome_Dependente": "Fátima"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2001-01-25T02:10:00Z"
+      },
+      "Nome_Dependente": "Trauco"
+    }
+  ],
+  "Ultimo_Nome": "Machado",
+  "Primeiro_Nome": "Tulio",
+  "Cpf_Supervisor": "98765432168",
+  "Data_Nascimento": {
+    "$date": "1971-01-19T03:01:00Z"
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e36"
+  },
+  "Cpf": "99966666667",
+  "Sexo": "M",
+  "Salario": 18000,
+  "Endereco": "Rua Itibiri 45 Rio de Janeiro RJ",
+  "Nome_Meio": "G",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Filha",
+      "Data_Nascimento": {
+        "$date": "2002-01-25T02:10:00Z"
+      },
+      "Nome_Dependente": "Marcela"
+    },
+    {
+      "Sexo": "F",
+      "Parentesco": "Esposa",
+      "Data_Nascimento": {
+        "$date": "1970-01-26T03:09:00Z"
+      },
+      "Nome_Dependente": "Marcia"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2006-01-18T02:08:00Z"
+      },
+      "Nome_Dependente": "Marcos"
+    }
+  ],
+  "Ultimo_Nome": "Pimenta",
+  "Primeiro_Nome": "Cosme",
+  "Cpf_Supervisor": "98765432168",
+  "Data_Nascimento": {
+    "$date": "1970-01-19T03:01:00Z"
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e37"
+  },
+  "Cpf": "99968855667",
+  "Sexo": "F",
+  "Salario": 22000,
+  "Endereco": "Rua Cosme e Damião 453 Rio de Janeiro RJ",
+  "Nome_Meio": "O",
+  "Dependentes": [
+    {
+      "Sexo": "M",
+      "Parentesco": "Marido",
+      "Data_Nascimento": {
+        "$date": "1978-01-22T03:10:00Z"
+      },
+      "Nome_Dependente": "Claudio"
+    },
+    {
+      "Sexo": "F",
+      "Parentesco": "Filha",
+      "Data_Nascimento": {
+        "$date": "2005-01-11T02:10:00Z"
+      },
+      "Nome_Dependente": "Janaina"
+    },
+    {
+      "Sexo": "F",
+      "Parentesco": "Filha",
+      "Data_Nascimento": {
+        "$date": "2007-01-12T02:06:00Z"
+      },
+      "Nome_Dependente": "Tania"
+    }
+  ],
+  "Ultimo_Nome": "Andrada",
+  "Primeiro_Nome": "Marcia",
+  "Cpf_Supervisor": "98765432168",
+  "Data_Nascimento": {
+    "$date": "1975-01-19T03:01:00Z"
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e38"
+  },
+  "Cpf": "99988666667",
+  "Sexo": "M",
+  "Salario": 22000,
+  "Endereco": "Rua Aracaju 99 Rio de Janeiro RJ",
+  "Nome_Meio": "P",
+  "Dependentes": [
+    {
+      "Sexo": "F",
+      "Parentesco": "Esposa",
+      "Data_Nascimento": {
+        "$date": "1973-01-26T03:12:00Z"
+      },
+      "Nome_Dependente": "Katia"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2002-01-25T02:10:00Z"
+      },
+      "Nome_Dependente": "Roberto"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2003-01-18T02:12:00Z"
+      },
+      "Nome_Dependente": "Rogerio"
+    },
+    {
+      "Sexo": "M",
+      "Parentesco": "Filho",
+      "Data_Nascimento": {
+        "$date": "2005-01-18T02:11:00Z"
+      },
+      "Nome_Dependente": "Ronaldo"
+    }
+  ],
+  "Ultimo_Nome": "VillaReal",
+  "Primeiro_Nome": "Marcos",
+  "Cpf_Supervisor": "98765432168",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-93131940000"
+    }
+  },
+  "Numero_Departamento": "4"
+},{
+  "_id": {
+    "$oid": "5f1cf9a3d64032133c7e5e39"
+  },
+  "Cpf": "99988777767",
+  "Sexo": "F",
+  "Salario": 25000,
+  "Endereco": "Rua Souza Lima 35 Curitiba PR",
+  "Nome_Meio": "J",
+  "Ultimo_Nome": "Zelaya",
+  "Primeiro_Nome": "Alice",
+  "Cpf_Supervisor": "98765432168",
+  "Data_Nascimento": {
+    "$date": {
+      "$numberLong": "-61595940000"
+    }
+  },
+  "Numero_Departamento": "4"
+}]
