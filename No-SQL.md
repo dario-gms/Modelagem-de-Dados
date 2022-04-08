@@ -71,4 +71,21 @@
 - Versionamento.
 
 
+## Bancos de dados
+
+### MongoDB
+
+- Primeiras versões em 2007;
+- Empresa 10gen - MongoDB INC;
+- Banco NoSQL orientado a documento;
+- Simplicidade na instalação;
+- Confiabilidade e replicação de dados;
+- Velocidades rápidas nas consultas;
+- Suporta compartilhamento automático;
+- Facilidade nas migrações;
+- Escalabilidade Horizontal;
+- Código aberto;
+- Suporta diversos sistemas operacionais;
+- Versões.
+
 
