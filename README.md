@@ -59,3 +59,7 @@
 > ***Obs.:** *Necessário software [uniform server](https://sourceforge.net/projects/miniserver/) e [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)*.
 
 #### - [Desafio 1](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/desafio-noSQL.md)
+
+#### - [Desafio 2](https://github.com/dario-gms/Modelagem-de-Dados/blob/main/desafio2NoSQL.md)
+
+> ***Obs.:** *Necessário software [MongoDB](https://www.mongodb.com/try/download/community)*.
